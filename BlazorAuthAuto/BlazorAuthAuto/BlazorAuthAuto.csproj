@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>$(TargetFramework)</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-BlazorAuthAuto-086f91f4-6755-42dc-b13a-f61412aa0919</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\BlazorAuthAuto.Client\BlazorAuthAuto.Client.csproj"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0-rc.2.23480.2"/>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.0-rc.2.23480.2"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.0-rc.2.23480.2"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0-rc.2.23480.1"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0-rc.2.23480.1"/>
+    </ItemGroup>
+
+</Project>

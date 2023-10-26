@@ -1,0 +1,5 @@
+<Project>
+    <PropertyGroup>
+        <DefaultFrameworkVersion>8.0</DefaultFrameworkVersion>
+    </PropertyGroup>
+</Project>
