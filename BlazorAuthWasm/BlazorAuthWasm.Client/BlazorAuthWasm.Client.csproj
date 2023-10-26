@@ -9,9 +9,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Wangkanai.Blazor"/>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly"/>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication"/>
+        <PackageReference Include="Wangkanai.Blazor"/>
     </ItemGroup>
 
 </Project>
