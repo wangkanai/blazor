@@ -9,6 +9,7 @@
     <ItemGroup>
         <ProjectReference Include="..\BlazorServerAuto.Client\BlazorServerAuto.Client.csproj"/>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server"/>
+        <PackageReference Include="Wangkanai.Detection"/>
     </ItemGroup>
 
 </Project>

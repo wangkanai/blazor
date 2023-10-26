@@ -8,5 +8,6 @@
 
     <ItemGroup>
         <PackageReference Include="Wangkanai.Blazor"/>
+        <PackageReference Include="Wangkanai.Detection"/>
     </ItemGroup>
 </Project>
