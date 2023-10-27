@@ -2,6 +2,7 @@ using BlazorAuthClean.Client.Pages;
 using BlazorAuthClean.Components;
 using BlazorAuthClean.Data;
 using BlazorAuthClean.Identity;
+using BlazorAuthClean.Infrastructure.Persistence;
 
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;

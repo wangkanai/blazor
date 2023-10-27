@@ -6,8 +6,4 @@
 		<Nullable>enable</Nullable>
 	</PropertyGroup>
 
-	<ItemGroup>
-		<ProjectReference Include="..\Domain\BlazorAuthClean.Domain.csproj"/>
-	</ItemGroup>
-
 </Project>
