@@ -9,12 +9,13 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Client\BlazorAuthClean.Client.csproj"/>
-		<ProjectReference Include="..\Infrastructure\BlazorAuthClean.Infrastructure.csproj" />
+		<ProjectReference Include="..\Infrastructure\BlazorAuthClean.Infrastructure.csproj"/>
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server"/>
 		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore"/>
 		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore"/>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"/>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools"/>
+		<PackageReference Include="Wangkanai.Detection"/>
 	</ItemGroup>
 
 </Project>
