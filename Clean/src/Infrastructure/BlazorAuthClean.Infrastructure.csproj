@@ -7,7 +7,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\Domain\BlazorAuthClean.Domain.csproj"/>
+		<ProjectReference Include="..\Application\BlazorAuthClean.Application.csproj"/>
 	</ItemGroup>
 
 </Project>
