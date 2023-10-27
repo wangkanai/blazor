@@ -3,29 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerAuto", "BlazorServerAuto\BlazorServerAuto\BlazorServerAuto.csproj", "{03A0CCE3-7BD9-411A-B935-4EFB4FEE45F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerAuto", "Server\Auto\Server\BlazorServerAuto.csproj", "{03A0CCE3-7BD9-411A-B935-4EFB4FEE45F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerAuto.Client", "BlazorServerAuto\BlazorServerAuto.Client\BlazorServerAuto.Client.csproj", "{2081FE35-54C5-4D67-9F4D-754C275815E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerAuto.Client", "Server\Auto\Client\BlazorServerAuto.Client.csproj", "{2081FE35-54C5-4D67-9F4D-754C275815E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerNone", "BlazorServerNone\BlazorServerNone.csproj", "{7A6F1B46-FA50-4068-86B2-A041836A70C6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerNone", "Server\None\BlazorServerNone.csproj", "{7A6F1B46-FA50-4068-86B2-A041836A70C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerServer", "BlazorServerServer\BlazorServerServer.csproj", "{5721C0A9-69F9-4A0E-88CB-058409241857}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerServer", "Server\Server\BlazorServerServer.csproj", "{5721C0A9-69F9-4A0E-88CB-058409241857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerWasm", "BlazorServerWasm\BlazorServerWasm\BlazorServerWasm.csproj", "{F852F6F4-78F7-4A8D-B2F8-598EA06DB010}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerWasm", "Server\Wasm\Server\BlazorServerWasm.csproj", "{F852F6F4-78F7-4A8D-B2F8-598EA06DB010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerWasm.Client", "BlazorServerWasm\BlazorServerWasm.Client\BlazorServerWasm.Client.csproj", "{ABEA745C-2C6E-435F-BBFC-D2B3ACD7EBD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServerWasm.Client", "Server\Wasm\Client\BlazorServerWasm.Client.csproj", "{ABEA745C-2C6E-435F-BBFC-D2B3ACD7EBD7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthNone", "BlazorAuthNone\BlazorAuthNone.csproj", "{0EE62067-5EF3-43E3-BED6-79BA154A8D91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthNone", "Auth\None\BlazorAuthNone.csproj", "{0EE62067-5EF3-43E3-BED6-79BA154A8D91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthServer", "BlazorAuthServer\BlazorAuthServer.csproj", "{882A7954-D36C-4E37-9161-CC338CBCB3A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthServer", "Auth\Server\BlazorAuthServer.csproj", "{882A7954-D36C-4E37-9161-CC338CBCB3A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthWasm", "BlazorAuthWasm\BlazorAuthWasm\BlazorAuthWasm.csproj", "{B659D7D2-07BB-409E-9DEC-5D5ECDC54A18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthWasm", "Auth\Wasm\Server\BlazorAuthWasm.csproj", "{B659D7D2-07BB-409E-9DEC-5D5ECDC54A18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthWasm.Client", "BlazorAuthWasm\BlazorAuthWasm.Client\BlazorAuthWasm.Client.csproj", "{A345AB64-A51E-478D-BD6B-4EF1394773AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthWasm.Client", "Auth\Wasm\Client\BlazorAuthWasm.Client.csproj", "{A345AB64-A51E-478D-BD6B-4EF1394773AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthAuto", "BlazorAuthAuto\BlazorAuthAuto\BlazorAuthAuto.csproj", "{878D9924-9454-4382-A8C1-6BE7F7D9ACD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthAuto", "Auth\Auto\Server\BlazorAuthAuto.csproj", "{878D9924-9454-4382-A8C1-6BE7F7D9ACD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthAuto.Client", "BlazorAuthAuto\BlazorAuthAuto.Client\BlazorAuthAuto.Client.csproj", "{F653E92F-A8B0-4124-B8CE-5E8B44A506A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthAuto.Client", "Auth\Auto\Client\BlazorAuthAuto.Client.csproj", "{F653E92F-A8B0-4124-B8CE-5E8B44A506A2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solutions", ".solutions", "{5448801B-A7C3-4402-BB89-C9DAEF480FD7}"
 	ProjectSection(SolutionItems) = preProject
@@ -35,6 +35,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solutions", ".solutions", 
 		Directory.Build.targets = Directory.Build.targets
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{BC2C2307-7D3A-49D3-952B-2955EF2F78BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{FBD8DF70-364A-4245-8366-6882B50DE0D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -96,5 +100,19 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BA7374B-6AB0-4CD0-A1CB-13A60C9641D6}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{878D9924-9454-4382-A8C1-6BE7F7D9ACD0} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
+		{F653E92F-A8B0-4124-B8CE-5E8B44A506A2} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
+		{0EE62067-5EF3-43E3-BED6-79BA154A8D91} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
+		{882A7954-D36C-4E37-9161-CC338CBCB3A8} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
+		{B659D7D2-07BB-409E-9DEC-5D5ECDC54A18} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
+		{A345AB64-A51E-478D-BD6B-4EF1394773AE} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
+		{03A0CCE3-7BD9-411A-B935-4EFB4FEE45F3} = {FBD8DF70-364A-4245-8366-6882B50DE0D7}
+		{2081FE35-54C5-4D67-9F4D-754C275815E3} = {FBD8DF70-364A-4245-8366-6882B50DE0D7}
+		{7A6F1B46-FA50-4068-86B2-A041836A70C6} = {FBD8DF70-364A-4245-8366-6882B50DE0D7}
+		{5721C0A9-69F9-4A0E-88CB-058409241857} = {FBD8DF70-364A-4245-8366-6882B50DE0D7}
+		{F852F6F4-78F7-4A8D-B2F8-598EA06DB010} = {FBD8DF70-364A-4245-8366-6882B50DE0D7}
+		{ABEA745C-2C6E-435F-BBFC-D2B3ACD7EBD7} = {FBD8DF70-364A-4245-8366-6882B50DE0D7}
 	EndGlobalSection
 EndGlobal

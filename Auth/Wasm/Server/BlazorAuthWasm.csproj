@@ -4,17 +4,16 @@
         <TargetFramework>$(TargetFramework)</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>aspnet-BlazorAuthAuto-086f91f4-6755-42dc-b13a-f61412aa0919</UserSecretsId>
+        <UserSecretsId>aspnet-BlazorAuthWasm-acad4ce0-602f-46f6-8d8c-76a17c335ae1</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\BlazorAuthAuto.Client\BlazorAuthAuto.Client.csproj"/>
+        <ProjectReference Include="..\Client\BlazorAuthWasm.Client.csproj"/>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server"/>
         <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore"/>
         <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools"/>
-        
         <PackageReference Include="Wangkanai.Detection"/>
     </ItemGroup>
 
