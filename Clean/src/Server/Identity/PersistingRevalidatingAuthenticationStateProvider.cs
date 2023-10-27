@@ -3,6 +3,7 @@ using System.Security.Claims;
 
 using BlazorAuthClean.Client;
 using BlazorAuthClean.Data;
+using BlazorAuthClean.Domain.Identity;
 
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Authorization;

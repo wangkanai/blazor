@@ -3,6 +3,7 @@ using System.Text.Json;
 using BlazorAuthClean.Components.Pages.Account;
 using BlazorAuthClean.Components.Pages.Account.Manage;
 using BlazorAuthClean.Data;
+using BlazorAuthClean.Domain.Identity;
 
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Components.Authorization;

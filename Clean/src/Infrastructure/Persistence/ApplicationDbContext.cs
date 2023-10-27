@@ -1,4 +1,4 @@
-using BlazorAuthClean.Data;
+using BlazorAuthClean.Domain.Identity;
 
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;

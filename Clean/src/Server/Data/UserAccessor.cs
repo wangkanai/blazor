@@ -1,3 +1,4 @@
+using BlazorAuthClean.Domain.Identity;
 using BlazorAuthClean.Identity;
 
 using Microsoft.AspNetCore.Identity;
