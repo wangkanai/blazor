@@ -2,7 +2,14 @@ root = true
 
 # All files
 [*]
-indent_style = space
+charset = utf-8
+indent_style = tab
+indent_size = 4
+tab_width = 4
+end_of_line = crlf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
 
 # Xml files
 [*.xml]
@@ -98,6 +105,24 @@ csharp_style_pattern_matching_over_is_with_cast_check = true:suggestion
 csharp_style_prefer_not_pattern = true:suggestion
 csharp_style_prefer_pattern_matching = true:silent
 csharp_style_prefer_switch_expression = true:suggestion
+
+# Pattern alignments
+resharper_int_align_assignments = true
+resharper_int_align_comments = true
+resharper_int_align_fields = true
+resharper_int_align_methods = true
+resharper_int_align_nested_ternary = true
+resharper_int_align_parameters = true
+resharper_int_align_properties = true
+resharper_int_align_switch_expressions = true
+resharper_int_align_switch_sections = true
+resharper_int_align_variables = true
+
+# Multiline alignments
+resharper_align_multiline_calls_chain = true
+resharper_align_multiline_expression = true
+resharper_align_multiple_declaration = true
+resharper_align_multline_type_parameter_constrains = true
 
 # Null-checking preferences
 csharp_style_conditional_delegate_call = true:suggestion
