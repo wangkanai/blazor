@@ -41,12 +41,22 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{FBD8DF70-364A-4245-8366-6882B50DE0D7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clean", "Clean", "{3E83C09E-09EA-4DB1-BF31-E1AD9F9CF318}"
+	ProjectSection(SolutionItems) = preProject
+		Clean\Directory.Build.props = Clean\Directory.Build.props
+		Clean\README.md = Clean\README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthClean.Tests", "Clean\tests\BlazorAuthClean.Tests.csproj", "{E1DF3ECB-1897-4933-BF11-4918A71F04F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthClean.Client", "Clean\src\Client\BlazorAuthClean.Client.csproj", "{41E6E281-16C5-4445-8C4F-C6E1ECF47B31}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthClean", "Clean\src\Server\BlazorAuthClean.csproj", "{94814623-80DA-4632-9A6D-E760DD7AB419}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthClean.Domain", "Clean\src\Domain\BlazorAuthClean.Domain.csproj", "{7F0E254C-9CEF-4408-8D3F-361C7E3C6AA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthClean.Infrastructure", "Clean\src\Infrastructure\BlazorAuthClean.Infrastructure.csproj", "{2D729F4F-F672-4236-B286-655302366A14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAuthClean.Benchmark", "Clean\benchmark\BlazorAuthClean.Benchmark.csproj", "{9340F060-F906-4DCC-8AFC-A875550CF939}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -114,6 +124,18 @@ Global
 		{94814623-80DA-4632-9A6D-E760DD7AB419}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94814623-80DA-4632-9A6D-E760DD7AB419}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94814623-80DA-4632-9A6D-E760DD7AB419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F0E254C-9CEF-4408-8D3F-361C7E3C6AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F0E254C-9CEF-4408-8D3F-361C7E3C6AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F0E254C-9CEF-4408-8D3F-361C7E3C6AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F0E254C-9CEF-4408-8D3F-361C7E3C6AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D729F4F-F672-4236-B286-655302366A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D729F4F-F672-4236-B286-655302366A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D729F4F-F672-4236-B286-655302366A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D729F4F-F672-4236-B286-655302366A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9340F060-F906-4DCC-8AFC-A875550CF939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9340F060-F906-4DCC-8AFC-A875550CF939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9340F060-F906-4DCC-8AFC-A875550CF939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9340F060-F906-4DCC-8AFC-A875550CF939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +156,9 @@ Global
 		{E1DF3ECB-1897-4933-BF11-4918A71F04F6} = {3E83C09E-09EA-4DB1-BF31-E1AD9F9CF318}
 		{41E6E281-16C5-4445-8C4F-C6E1ECF47B31} = {3E83C09E-09EA-4DB1-BF31-E1AD9F9CF318}
 		{94814623-80DA-4632-9A6D-E760DD7AB419} = {3E83C09E-09EA-4DB1-BF31-E1AD9F9CF318}
+		{7F0E254C-9CEF-4408-8D3F-361C7E3C6AA0} = {3E83C09E-09EA-4DB1-BF31-E1AD9F9CF318}
+		{2D729F4F-F672-4236-B286-655302366A14} = {3E83C09E-09EA-4DB1-BF31-E1AD9F9CF318}
+		{9340F060-F906-4DCC-8AFC-A875550CF939} = {3E83C09E-09EA-4DB1-BF31-E1AD9F9CF318}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BA7374B-6AB0-4CD0-A1CB-13A60C9641D6}

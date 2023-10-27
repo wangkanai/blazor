@@ -13,4 +13,8 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication"/>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Domain\BlazorAuthClean.Domain.csproj" />
+	</ItemGroup>
+
 </Project>
