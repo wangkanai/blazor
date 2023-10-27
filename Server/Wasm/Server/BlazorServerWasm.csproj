@@ -7,7 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\BlazorServerWasm.Client\BlazorServerWasm.Client.csproj"/>
+        <ProjectReference Include="..\Client\BlazorServerWasm.Client.csproj"/>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
 
         <PackageReference Include="Wangkanai.Detection"/>
