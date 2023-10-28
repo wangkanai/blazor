@@ -123,6 +123,7 @@ resharper_align_multiline_calls_chain = true
 resharper_align_multiline_expression = true
 resharper_align_multiple_declaration = true
 resharper_align_multline_type_parameter_constrains = true
+resharper_align_multline_type_parameter_list = true
 
 # Null-checking preferences
 csharp_style_conditional_delegate_call = true:suggestion
