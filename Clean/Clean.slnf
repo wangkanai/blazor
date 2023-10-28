@@ -1,0 +1,16 @@
+﻿{
+  "solution": {
+    "path": "..\\Blazor.sln",
+    "projects": [
+      "Clean\\benchmark\\BlazorAuthClean.Benchmark.csproj",
+      "Clean\\src\\Application\\BlazorAuthClean.Application.csproj",
+      "Clean\\src\\Client\\BlazorAuthClean.Client.csproj",
+      "Clean\\src\\Domain\\BlazorAuthClean.Domain.csproj",
+      "Clean\\src\\Infrastructure\\BlazorAuthClean.Infrastructure.csproj",
+      "Clean\\src\\Server\\BlazorAuthClean.csproj",
+      "Clean\\tests\\Application\\BlazorAuthClean.Application.UnitTests.csproj",
+      "Clean\\tests\\Domain\\BlazorAuthClean.Domain.UnitTests.csproj",
+      "Clean\\tests\\Integration\\BlazorAuthClean.Application.IntegrationTests.csproj"
+    ]
+  }
+}
