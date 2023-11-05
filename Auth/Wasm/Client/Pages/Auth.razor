@@ -1,9 +1,10 @@
-@page "/auth"
+﻿@page "/auth"
 
 @using Microsoft.AspNetCore.Authorization
 
 @attribute [Authorize]
-@rendermode InteractiveWebAssembly
+@attribute [RenderModeInteractiveAuto]
+@* @rendermode InteractiveWebAssembly *@
 
 <PageTitle>Auth</PageTitle>
 
