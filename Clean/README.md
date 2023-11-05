@@ -1,1 +1,0 @@
-# Wangkanai Blazor Clean Architecture
