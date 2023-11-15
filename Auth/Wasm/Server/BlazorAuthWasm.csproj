@@ -1,9 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
     <PropertyGroup>
-        <TargetFramework>$(TargetFramework)</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>aspnet-BlazorAuthWasm-acad4ce0-602f-46f6-8d8c-76a17c335ae1</UserSecretsId>
     </PropertyGroup>
 
