@@ -1,44 +1,51 @@
+// Copyright (c) 2014-2024 Sarin Na Wangkanai, All Rights Reserved.Apache License, Version 2.0
+
 using BlazorAuthServer.Components;
+using BlazorAuthServer.Components.Account;
 using BlazorAuthServer.Data;
-using BlazorAuthServer.Identity;
 
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-       .AddInteractiveServerComponents();
-
-builder.Services.AddDetection();
+	.AddInteractiveServerComponents();
 
 builder.Services.AddCascadingAuthenticationState();
-builder.Services.AddScoped<UserAccessor>();
+builder.Services.AddScoped<IdentityUserAccessor>();
 builder.Services.AddScoped<IdentityRedirectManager>();
 builder.Services.AddScoped<AuthenticationStateProvider, IdentityRevalidatingAuthenticationStateProvider>();
 
-builder.Services.AddAuthentication(IdentityConstants.ApplicationScheme)
-       .AddIdentityCookies();
+builder.Services.AddAuthentication(options =>
+	{
+		options.DefaultScheme = IdentityConstants.ApplicationScheme;
+		options.DefaultSignInScheme = IdentityConstants.ExternalScheme;
+	})
+	.AddIdentityCookies();
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
-                       throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+	options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddIdentityCore<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-       .AddEntityFrameworkStores<ApplicationDbContext>()
-       .AddSignInManager()
-       .AddDefaultTokenProviders();
+	.AddEntityFrameworkStores<ApplicationDbContext>()
+	.AddSignInManager()
+	.AddDefaultTokenProviders();
 
-builder.Services.AddSingleton<IEmailSender, NoOpEmailSender>();
+builder.Services.AddSingleton<IEmailSender<ApplicationUser>, IdentityNoOpEmailSender>();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
+{
+	app.UseMigrationsEndPoint();
+}
+else
 {
 	app.UseExceptionHandler("/Error", createScopeForErrors: true);
 	// The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
@@ -50,10 +57,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
-app.UseDetection();
-
 app.MapRazorComponents<App>()
-   .AddInteractiveServerRenderMode();
+	.AddInteractiveServerRenderMode();
 
 // Add additional endpoints required by the Identity /Account Razor components.
 app.MapAdditionalIdentityEndpoints();
