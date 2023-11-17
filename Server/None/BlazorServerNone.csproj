@@ -1,5 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 	<ItemGroup>
 		<PackageReference Include="Wangkanai.Blazor"/>
+		<PackageReference Include="Wangkanai.Detection"/>
 	</ItemGroup>
 </Project>
