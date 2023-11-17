@@ -11,10 +11,10 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"  />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools"  />
 		<PackageReference Include="Wangkanai.Detection"/>
-	    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
-	  <PackageReference Include="Wangkanai.Detection" />
-</ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
+		<PackageReference Include="Wangkanai.Detection" />
+	</ItemGroup>
 </Project>

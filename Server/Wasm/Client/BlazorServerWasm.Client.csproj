@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
-
 	<PropertyGroup>
 		<NoDefaultLaunchSettingsFile>true</NoDefaultLaunchSettingsFile>
 		<StaticWebAssetProjectMode>Default</StaticWebAssetProjectMode>
@@ -9,5 +8,4 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly"/>
 		<PackageReference Include="Wangkanai.Blazor"/>
 	</ItemGroup>
-
 </Project>

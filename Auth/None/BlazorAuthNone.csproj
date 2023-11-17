@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
 	<PropertyGroup>
 		<UserSecretsId>aspnet-BlazorAuthNone-30afd2c2-843e-4eb4-a2cf-6101911f33c8</UserSecretsId>
 	</PropertyGroup>
@@ -12,5 +11,4 @@
 		<PackageReference Include="Wangkanai.Blazor"/>
 		<PackageReference Include="Wangkanai.Detection"/>
 	</ItemGroup>
-
 </Project>
