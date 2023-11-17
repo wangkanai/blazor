@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAuthNone", "Auth\None\BlazorAuthNone.csproj", "{0EE62067-5EF3-43E3-BED6-79BA154A8D91}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAuthServer", "Auth\Server\BlazorAuthServer.csproj", "{882A7954-D36C-4E37-9161-CC338CBCB3A8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAuthWasm", "Auth\Wasm\Server\BlazorAuthWasm.csproj", "{B659D7D2-07BB-409E-9DEC-5D5ECDC54A18}"
@@ -41,16 +39,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerAuto.Client", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerAuto", "Server\Auto\Server\BlazorServerAuto.csproj", "{39927F68-5BE8-43C1-BA99-5484D31BE4DC}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorAuthNone", "Auth\None\BlazorAuthNone.csproj", "{D73489F8-D5A5-4B6C-ABD0-05DEFFE8EB35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0EE62067-5EF3-43E3-BED6-79BA154A8D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EE62067-5EF3-43E3-BED6-79BA154A8D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EE62067-5EF3-43E3-BED6-79BA154A8D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EE62067-5EF3-43E3-BED6-79BA154A8D91}.Release|Any CPU.Build.0 = Release|Any CPU
 		{882A7954-D36C-4E37-9161-CC338CBCB3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{882A7954-D36C-4E37-9161-CC338CBCB3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{882A7954-D36C-4E37-9161-CC338CBCB3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -95,12 +91,15 @@ Global
 		{39927F68-5BE8-43C1-BA99-5484D31BE4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39927F68-5BE8-43C1-BA99-5484D31BE4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39927F68-5BE8-43C1-BA99-5484D31BE4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73489F8-D5A5-4B6C-ABD0-05DEFFE8EB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73489F8-D5A5-4B6C-ABD0-05DEFFE8EB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73489F8-D5A5-4B6C-ABD0-05DEFFE8EB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73489F8-D5A5-4B6C-ABD0-05DEFFE8EB35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{0EE62067-5EF3-43E3-BED6-79BA154A8D91} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
 		{882A7954-D36C-4E37-9161-CC338CBCB3A8} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
 		{B659D7D2-07BB-409E-9DEC-5D5ECDC54A18} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
 		{A345AB64-A51E-478D-BD6B-4EF1394773AE} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
@@ -112,6 +111,7 @@ Global
 		{3D49CBDF-4B46-4254-9D4B-C9F8FA93571C} = {FBD8DF70-364A-4245-8366-6882B50DE0D7}
 		{A6B70BB5-74DD-4BEE-A24B-F48EFC2E2D37} = {FBD8DF70-364A-4245-8366-6882B50DE0D7}
 		{39927F68-5BE8-43C1-BA99-5484D31BE4DC} = {FBD8DF70-364A-4245-8366-6882B50DE0D7}
+		{D73489F8-D5A5-4B6C-ABD0-05DEFFE8EB35} = {BC2C2307-7D3A-49D3-952B-2955EF2F78BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6BA7374B-6AB0-4CD0-A1CB-13A60C9641D6}
