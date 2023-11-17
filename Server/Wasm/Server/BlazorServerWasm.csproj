@@ -1,16 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
-    <PropertyGroup>
-        <TargetFramework>$(TargetFramework)</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="..\Client\BlazorServerWasm.Client.csproj"/>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
-
-        <PackageReference Include="Wangkanai.Detection"/>
-    </ItemGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="..\Client\BlazorServerWasm.Client.csproj" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
+		<PackageReference Include="Wangkanai.Detection"/>
+	</ItemGroup>
 </Project>

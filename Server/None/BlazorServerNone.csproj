@@ -1,13 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
-    <PropertyGroup>
-        <TargetFramework>$(TargetFramework)</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Wangkanai.Blazor"/>
-        <PackageReference Include="Wangkanai.Detection"/>
-    </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Wangkanai.Blazor"/>
+		<PackageReference Include="Wangkanai.Detection"/>
+	</ItemGroup>
 </Project>

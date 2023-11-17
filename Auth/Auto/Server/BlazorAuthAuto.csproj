@@ -1,21 +1,20 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
+	<PropertyGroup>
+		<UserSecretsId>aspnet-BlazorAuthAuto-d3cab577-29c5-4bfd-b873-19aa271ae07a</UserSecretsId>
+	</PropertyGroup>
 
-    <PropertyGroup>
-        <TargetFramework>$(TargetFramework)</TargetFramework>
-        <Nullable>enable</Nullable>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>aspnet-BlazorAuthAuto-086f91f4-6755-42dc-b13a-f61412aa0919</UserSecretsId>
-    </PropertyGroup>
-
-    <ItemGroup>
-        <ProjectReference Include="..\Client\BlazorAuthAuto.Client.csproj"/>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server"/>
-        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore"/>
-        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools"/>
-        
-        <PackageReference Include="Wangkanai.Detection"/>
-    </ItemGroup>
-
+	<ItemGroup>
+		<ProjectReference Include="..\Client\BlazorAuthAuto.Client.csproj" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server"  />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore"  />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer"  />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools"  />
+		<PackageReference Include="Wangkanai.Detection"/>
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" />
+		<PackageReference Include="Wangkanai.Detection" />
+	</ItemGroup>
 </Project>

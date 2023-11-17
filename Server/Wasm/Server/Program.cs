@@ -1,3 +1,5 @@
+// Copyright (c) 2014-2024 Sarin Na Wangkanai, All Rights Reserved.Apache License, Version 2.0
+
 using BlazorServerWasm.Client.Pages;
 using BlazorServerWasm.Components;
 
@@ -5,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
-       .AddInteractiveWebAssemblyComponents();
+	.AddInteractiveWebAssemblyComponents();
 
 builder.Services.AddDetection();
 
@@ -31,7 +33,7 @@ app.UseAntiforgery();
 app.UseDetection();
 
 app.MapRazorComponents<App>()
-   .AddInteractiveWebAssemblyRenderMode()
-   .AddAdditionalAssemblies(typeof(Counter).Assembly);
+	.AddInteractiveWebAssemblyRenderMode()
+	.AddAdditionalAssemblies(typeof(Counter).Assembly);
 
 app.Run();
